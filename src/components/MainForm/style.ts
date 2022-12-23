@@ -3,8 +3,9 @@ import BackgroundMain from '../../assets/fotoprincipal.jpeg'
 
 export const MainContainer = styled.main`
   /* background-image: url(${BackgroundMain}); */
-  background-color: #cbd6ab;
-  background-image: url(${BackgroundMain});
+
+  /* background-image: url(${BackgroundMain}); */
+  background-color: #b29057;
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;

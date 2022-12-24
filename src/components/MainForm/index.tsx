@@ -152,17 +152,19 @@ export function MainForm() {
           </TextAreaContainer>
           <button type="submit">Enviar</button>
           <SocialIconsContainer>
-            <a href="">
+            <a
+              href="https://www.instagram.com/pontal_da_barra_itapoa/"
+              target={'_blank'}
+              rel="noreferrer"
+            >
               <InstagramLogo size={30} />
             </a>
-            <a href="">
+            <a
+              href="https://wa.me/5547999468662"
+              target={'_blank'}
+              rel="noreferrer"
+            >
               <WhatsappLogo size={30} />
-            </a>
-            <a href="">
-              <FacebookLogo size={30} />
-            </a>
-            <a href="">
-              <TwitterLogo size={30} />
             </a>
           </SocialIconsContainer>
         </form>

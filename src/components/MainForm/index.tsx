@@ -82,8 +82,7 @@ export function MainForm() {
         mensagem,
       },
     })
-
-    window.location.replace('https://www.imovelpericiado.com.br/')
+    window.location.replace('https://www.pontaldabarra.com.br')
   }
 
   return (
@@ -106,10 +105,7 @@ export function MainForm() {
         </TitleContainer>
       </InfosContainer>
       <SignUpContainer>
-        <form
-          onSubmit={handleSubscribe}
-          action="https://www.imobiliariaimovelpericiado.com.br/"
-        >
+        <form onSubmit={handleSubscribe}>
           <h2>CADASTRE-SE</h2>
           <label htmlFor="">
             <IdentificationCard size={24} />

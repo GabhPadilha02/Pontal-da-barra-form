@@ -1,16 +1,12 @@
 import styled from 'styled-components'
-import BackgroundMain from '../../assets/fotoprincipal.jpeg'
+import BackgroundMain from '../../assets/background.jpeg'
 
 export const MainContainer = styled.main`
-  /* background-image: url(${BackgroundMain}); */
-
-  /* background-image: url(${BackgroundMain}); */
-  background-color: #b29057;
+  background-image: url(${BackgroundMain});
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
-  /* width: 100vw; */
   height: 100vh;
   display: flex;
   justify-content: space-between;
@@ -45,7 +41,7 @@ export const InfosContainer = styled.div`
 export const LogosContainer = styled.div`
   width: 60vw;
   justify-content: center;
-  padding-top: 5rem;
+  padding-top: 8rem;
   display: flex;
   align-items: center;
 `
@@ -170,7 +166,7 @@ export const SignUpContainer = styled.div`
     width: 100%;
     border-radius: 8px;
     border: none;
-    background-color: #b29057;
+    background-color: #d4af37;
     color: white;
     font-size: 1.1rem;
     font-weight: 700;
@@ -214,7 +210,7 @@ export const SocialIconsContainer = styled.div`
   a {
     transition: all 0.3s ease-in-out;
     &:hover {
-      color: #b29057;
+      color: #d4af37;
     }
   }
 `

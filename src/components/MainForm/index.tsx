@@ -1,11 +1,9 @@
 import {
   ChatText,
   Envelope,
-  FacebookLogo,
   IdentificationCard,
   InstagramLogo,
   Phone,
-  TwitterLogo,
   WhatsappLogo,
 } from 'phosphor-react'
 import {

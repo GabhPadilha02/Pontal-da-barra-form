@@ -8,6 +8,7 @@ export const MainContainer = styled.main`
   background-position-y: center;
   background-size: cover;
   height: 100vh;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
 
